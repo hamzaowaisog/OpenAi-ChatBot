@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 # from openai import OpenAI
-from pdf_extract import charactersplitter 
+from pdf_extract import charactersplitter, extract_text_from_pdf 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
